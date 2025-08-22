@@ -1,21 +1,12 @@
-# Claude Code PM
+# GPU Cloth Simulation
 
-[![Automaze](https://img.shields.io/badge/By-automaze.io-4b3baf)](https://automaze.io)
-&nbsp;
-[![Claude Code](https://img.shields.io/badge/+-Claude%20Code-d97757)](https://github.com/automazeio/ccpm/blob/main/README.md)
-[![GitHub Issues](https://img.shields.io/badge/+-GitHub%20Issues-1f2328)](https://github.com/automazeio/ccpm)
-&nbsp;
-[![MIT License](https://img.shields.io/badge/License-MIT-28a745)](https://github.com/automazeio/ccpm/blob/main/LICENSE)
-&nbsp;
-[![Follow on 𝕏](https://img.shields.io/badge/𝕏-@aroussi-1c9bf0)](http://x.com/intent/follow?screen_name=aroussi)
-&nbsp;
-[![Star this repo](https://img.shields.io/badge/★-Star%20this%20repo-e7b10b)](https://github.com/automazeio/ccpm)
+[![MIT License](https://img.shields.io/badge/License-MIT-28a745)](LICENSE)
 
-### Claude Code workflow to ship ~~faster~~ _better_ using spec-driven development, GitHub issues, Git worktrees, and mutiple AI agents running in parallel.
+GPU-accelerated cloth simulation using Rust, wgpu, and XPBD physics.
 
-Stop losing context. Stop blocking on tasks. Stop shipping bugs. This battle-tested system turns PRDs into epics, epics into GitHub issues, and issues into production code – with full traceability at every step.
+## Overview
 
-![Claude Code PM](screenshot.webp)
+High-performance real-time cloth simulation built with modern GPU compute shaders and Extended Position-Based Dynamics (XPBD) for stable, realistic cloth behavior.
 
 ## Table of Contents
 
@@ -464,8 +455,21 @@ If Claude Code PM helps your team ship better software:
 - 🐦 **[Follow @aroussi on X](https://x.com/aroussi)** for updates and tips
 
 
----
+## Technology Stack
 
-> [!TIP]
-> **Ship faster with Automaze.** We partner with founders to bring their vision to life, scale their business, and optimize for success.
-> **[Visit Automaze to book a call with me ›](https://automaze.io)**
+- **Rust** - Systems programming language for performance and safety
+- **wgpu** - Cross-platform GPU API built on WebGPU standard
+- **winit** - Cross-platform window creation and event handling
+- **WGSL** - WebGPU Shading Language for compute and graphics shaders
+
+## Key Features
+
+- **XPBD Physics Engine** - Extended Position-Based Dynamics for stable simulation
+- **GPU-Accelerated Computing** - All physics calculations run on GPU compute shaders
+- **Real-time Performance** - 60+ FPS with thousands of particles
+- **Interactive Controls** - Pin vertices, adjust parameters, and manipulate cloth in real-time
+- **Cross-platform Support** - Windows, macOS, and Linux compatibility
+
+## Getting Started
+
+This project uses the Claude Code PM system for development workflow. See the comprehensive documentation in the repository for technical details and implementation plans.
