@@ -12,22 +12,19 @@ The context system enables:
 
 ## Core Context Files
 
-When fully initialized, this directory contains:
+This directory contains comprehensive GPU cloth simulation project documentation:
 
 ### Project Foundation
 - **`project-brief.md`** - Project scope, goals, and key objectives
-- **`project-vision.md`** - Long-term vision and strategic direction
-- **`project-overview.md`** - High-level summary of features and capabilities
-- **`progress.md`** - Current project status, completed work, and immediate next steps
+- **`project-overview.md`** - Comprehensive project vision, features, and impact goals
+- **`project-status.md`** - Current project status, completed work, and immediate next steps
+- **`implementation-milestones.md`** - Six-phase development plan with clear deliverables
 
 ### Technical Context
-- **`tech-context.md`** - Dependencies, technologies, and development tools
-- **`project-structure.md`** - Directory structure and file organization
-- **`system-patterns.md`** - Architectural patterns and design decisions
-- **`project-style-guide.md`** - Coding standards, conventions, and style preferences
-
-### Product Context
-- **`product-context.md`** - Product requirements, target users, and core functionality
+- **`tech-stack.md`** - Complete technology stack, dependencies, and platform support
+- **`physics-architecture.md`** - XPBD algorithm, GPU compute pipeline, and constraint solving
+- **`rendering-architecture.md`** - Graphics pipeline, shader organization, and visual systems
+- **`development-conventions.md`** - Coding standards, conventions, and best practices
 
 ## Context Commands
 
